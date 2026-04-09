@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: #15151e;
+	color: white;
+}
+
+.light-mode, .light-mode dl {
+	background-color: #f7f4f1;
+	color: black;
+}
+
+.light-mode a:link, .light-mode a:visited {
+	color: black
+}
+
+a:hover {
+	color: rgb(255, 0, 183);
+	font-size: 17px;
+}
+
+a:link {
+	color: white;
+	background-color: transparent;
+	text-decoration: solid;
+}
+
+a:visited {
+	color: white;
+	background-color: transparent;
+	text-decoration: solid;
+}
+
+dl {
+	color: white;
+	font-family: "Monaco", monospace;
+	font-size: 18px;
+}
+
+.light-mode dl {
+	color: black;
+}
+
+.split {
+	width: 100%;
+}
+
+.split div{
+	width: 49%;
+	float: left;
+	margin-bottom: 15px;
+}
+
+.dol {
+	float: left;
+}
+
+.mercedes {
+	background-color: #00d2be;
+}
+
+.redbull {
+	background-color: #1e41ff;
+}
+
+.ferrari {
+	background-color: #dc0000;
+}
+
+.mclaren {
+	background-color: #ff8700;
+}
+
+.astonmartin {
+	background-color: #006f62;
+}
+
+.alpine {
+	background-color: #0090ff;
+}
+
+.williams {
+	background-color: #005aff;
+}
+
+.vcarb {
+	background-color: #6CD3FF;
+}
+
+.cadillac {
+	background-color: whitesmoke;
+	color: black;
+}
+
+.haas {
+	background-color: #b6babd;
+	color: black;
+}
+
+.audi {
+	background-color: #900000;
+}
+
+nav {
+	background-color: cornflowerblue;
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%
+}
+main {
+	padding-bottom: 30px
+}
